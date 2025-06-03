@@ -10,13 +10,14 @@ class Siswa extends Model
     use HasFactory;
 
     protected $fillable = [
-        'id_user',
-         'image',
-          'nis', 
-          'tingkatan', 
-          'jurusan',
-           'kelas',
-           'hp',
-            'status'
+    'id_user',
+    'image',
+    'nis',
+    'tingkatan',
+    'jurusan',
+    'kelas',
+    'hp',
+    'status',
+    
     ];
 }
